@@ -1,3 +1,10 @@
+### Requirements
+
+```
+- Python 3.10+
+- PyYAML (pip install pyyaml)
+```
+
 ### Usage
 
 ```bash
