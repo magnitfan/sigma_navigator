@@ -43,5 +43,5 @@ python sigma_v19_linter.py -r /path/to/sigma/rules -o output_filename.txt
 
 ```text
 -r, --repo-path PATH    Local Sigma repo path (required)
--o, --output PATH       Output Navigation layer file name and path
+-o, --output PATH       Output log file name and path
 ```
