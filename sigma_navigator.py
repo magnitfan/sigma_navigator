@@ -28,7 +28,7 @@ MITRE_TACTICS = {
     'execution': 'TA0002',
     'persistence': 'TA0003',
     'privilege-escalation': 'TA0004',
-    'defense-evasion': 'TA0005',
+    'stealth': 'TA0005',
     'credential-access': 'TA0006',
     'discovery': 'TA0007',
     'lateral-movement': 'TA0008',
@@ -36,6 +36,7 @@ MITRE_TACTICS = {
     'command-and-control': 'TA0011',
     'exfiltration': 'TA0010',
     'impact': 'TA0040',
+    'defense-impairment': 'TA0112',
 }
 
 COLOR_SCHEME = {
@@ -334,9 +335,9 @@ class MITRENavigatorGenerator:
         name: str = "4RAYS Sigma Rules Coverage",
         description: str = "Coverage of 4 RAYS Sigma detection rules against MITRE ATT&CK",
         domain: str = "enterprise-attack",
-        attack_version: str = "18",
-        navigator_version: str = "4.5.5",
-        layer_version: str = "4.3",
+        attack_version: str = "19",
+        navigator_version: str = "5.1.0",
+        layer_version: str = "4.5",
     ) -> Dict:
         self.logger.info("Generating Navigator layer...")
 
